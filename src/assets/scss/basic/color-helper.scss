@@ -1,15 +1,25 @@
 @import "@/assets/scss/tools/variables.css";
 
-.main-white { background: #FFFFFF; }
-.main-black { background: #000000; }
-.main-red { background: var(--color-text-red); }
-.main-blue { background: var(--color-link-blue); }
-.main-light-blue { background: var(--color-text-light-blue); }
-.main-orange { background: var(--color-orange); }
+.main-white { background: var(--color-white); }
+.main-black { background: var(--color-black); }
+.main-purple { background: var(--color-purple); }
+.main-green { background: var(--color-green); }
+.main-dark-purple { background: var(--color-dark-purple); }
+.main-light-purple { background: var(--color-light-purple); }
+.main-pink { background: var(--color-pink); }
 
-.main-white-text { color: #FFFFFF; }
-.main-black-text { color: #000000; }
-.main-red-text { color: var(--color-text-red); }
-.main-blue-text { color: var(--color-link-blue); }
-.main-light-blue-text { color: var(--color-text-light-blue); }
-.main-orange-text { color: var(--color-orange); }
+.main-white-text { color: var(--color-white); }
+.main-black-text { color: var(--color-black); }
+.main-purple-text { color: var(--color-purple); }
+.main-green-text { color: var(--color-green); }
+.main-dark-purple-text { color: var(--color-dark-purple); }
+.main-light-purple-text { color: var(--color-light-purple); }
+.main-pink-text { color: var(--color-pink); }
+
+.main-white-border { border-color: var(--color-white); }
+.main-black-border { border-color: var(--color-black); }
+.main-purple-border { border-color: var(--color-purple); }
+.main-green-border { border-color: var(--color-green); }
+.main-dark-purple-border { border-color: var(--color-dark-purple); }
+.main-light-purple-border { border-color: var(--color-light-purple); }
+.main-pink-border { border-color: var(--color-pink); }

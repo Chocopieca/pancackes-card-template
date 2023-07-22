@@ -1,12 +1,12 @@
 $breakpoints: [
   //[576px, 'sm'],
-  [600px, 'md'],
-  [960px, 'lg'],
-  [1280px, 'xl'],
-  [1904px, 'xxl']
+  [910px, 'md'],
+  //[960px, 'lg'],
+  //[1280px, 'xl'],
+  //[1904px, 'xxl']
 ];
 
-//sizes for padding and margin steps
+//sizes for padding and margin steps mx-5 mx-md-0
 $sizes: [0, 4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48, 52, 56, 60, 64, 68, 72, 76, 80, 84];
 
 //title of class, name of property, name of second property
@@ -30,6 +30,7 @@ $margin-padding-classes: [
 
 //name of property, title for class, value and title of property
 // for example [display, d, block] => d-block: { display: block };
+// for example [justify-content, justify, start] => justify-start: { justify-content: start };
 $global-classes: [
   [display, d, block],
   [display, d, flex],
@@ -55,6 +56,8 @@ $global-classes: [
   [position, position, fixed],
   [position, position, relative],
   [overflow, overflow, hidden],
+  [cursor, curesor, pointer],
+  [overflow, owerflow, hidden],
 ];
 
 $cols: 12;
